@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bethelhem T.</title>
+    <link rel="icon" href="./asset/image/betiicon.jpg" type="image">
 </head>
-<body background="./asset/image/backgr.png">
+<body background="./asset/image/backgr.png" text="grey">
     <a href="#about">ABOUT</a>
     <a href="#pics">PHOTOS</a>
     <a href="#books">BOOKS</a>
@@ -19,7 +20,7 @@
         
         <tr><img src="./asset/image/imageedit_2_9619180607.jpg" width="100%" height="550px"></tr>
         <tr>
-            <table border:solid black 0px;>
+            <table>
                 <tr>
                     <td><img src="./asset/image/aboutme.png" width="665px"></td>
                     <td><img src="./asset/image/propic1.jpg" width="665px" height="488px"></td>
@@ -28,7 +29,7 @@
         </tr>
         <tr>
             <table align="center">
-                <tr><h2 id="pics" ><img src="/asset/image/phototitle2.png" width="100%"></h2></tr>
+                <tr><h2 id="pics" ><img src="./asset/image/phototitle2.png" width="100%"></h2></tr>
                 <tr>
                     <td><figure><img src="./asset/image/grad1.jpg" width="300px"></figure></td>
                     
@@ -44,12 +45,12 @@
         </tr>
     </table>
     <table>
-        <table id="books">
+        <table border="0" bgcolor="#ff8b3d" id="books">
             <tr>
                 
                 <td><img src="./asset/image/bookpic.png" width="665px" ></td>
                 
-                <td ><img src="./asset/image/book.png" width="665px"height ="610px">
+                <td ><img src="./asset/image/favoritebooks.png" width="665px">
                 </td>
             </tr>
         </table>
@@ -61,38 +62,75 @@
                 
             </tr>
         </table>
-        <tr id="music"><img src="./asset/image/music.png" width="100%"></tr>
-        <table>
+        
+        <table bgcolor ="#ff8b3d" width="100%">
+            <tr id="music"><img src="./asset/image/music.png" width="100%"></tr>
+            <tr>Click on the photos for link to their music.</tr>
             <tr>
-                
-                
+                <td><a href="https://www.youtube.com/watch?v=Soa3gO7tL-c"><figure><img src="./asset/image/greenday.jpeg"></figure></a><figcaption>Greenday</figcaption></td>
+                <td><a href="https://www.youtube.com/user/queenofficial"><img src="./asset/image/queen.jpeg"></a><figcaption>Queen</figcaption></td>
+                <td><a href="https://www.youtube.com/watch?v=25HQlRAP_3w&list=RD25HQlRAP_3w&start_radio=1&t=11"><img src="./asset/image/franksinarta.jpeg"></a><figcaption>Frank Sinatra</figcaption></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.youtube.com/watch?v=gj0Rz-uP4Mk&list=RDgj0Rz-uP4Mk&start_radio=1&t=5"><img src="./asset/image/elvispresely.jpeg"></a><figcaption>Elvis Presely</figcaption></td>
+                <td><a href="https://www.youtube.com/user/ArcticMonkeys"><img src="./asset/image/arcticmonkeys.jpeg"></a><figcaption>Arctic Monkeys</figcaption></td>
             </tr>
         </table>
-        <tr id="contact"><img src="./asset/image/contact.png" width="100%"></tr>
-        <tr>
-            <td><img src="./asset/image/comtactme.png" width="665px"></td>
-            <td>
+        <table>
+            <tr id="contact"><img src="./asset/image/contact.png" width="100%"></tr>
+            <tr>
+                <td><img src="./asset/image/comtactme.png" width="665px"></td>
+                <td>
                 
-                    <table align="right">
-                    <form>    
+                    <table align="right" bgcolor="#2E2E2E">
+                    <form>     
                         <tr><td><label for="fname"><img src="./asset/image/fname.png" alt="FIRST NAME"></label></td><td aria-placeholder=""></td></tr>
-                        <tr><td><input type="text" name="fname" pattern="[A-Za-z]+$" required></td><td aria-placeholder=""></td></tr>
-                        <tr><td><label for="lname">LAST NAME</label></td></tr>
-                        <tr><td><input type="text" name="lname" pattern="[A-Za-z]+$" required></td></tr>
-                        <tr><td><label for="email">EMAIL</label></td></tr>
-                        <tr><td><input type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required></td></tr>
-                        <tr><td><label for="message">MESSAGE</label></td></tr>
+                        <tr><td><input type="text" name="fname" pattern="[A-Za-z]+$" required size="87"></td></td></tr>
+                        <tr><td><label for="lname"><img src="./asset/image/lastname.png" alt="LAST NAME"></label></td><td aria-placeholder=""></td></tr>
+                        <tr><td><input type="text" name="lname" pattern="[A-Za-z]+$" required size="87"></td></tr>
+                        <tr><td><label for="email"><img src="./asset/image/email.png" alt="EMAIL"></label></td></tr>
+                        <tr><td><input type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required size="87"></td></tr>
+                        <tr><td><label for="enjoy"><img src = "./asset/image/enjoy.png"></label></td></tr>
+                        <tr><td><input type="range" id="enjoy" name="enjoy" min="0" max="100" value="90" step="10"></td></tr>
+                        <tr><td><label for="message"><img src="./asset/image/message.png" alt="EMAIL"></label></td></tr>
                         <tr><td><textarea name="message" cols="89" rows="10"></textarea></td></tr>
-                        <tr><td><input type="submit" value="SUBMIT"></td></tr>
+                        <tr><td><input type="submit" value="SUBMIT" width="50px" height="25px"></td></tr>
                     </form>
                     </table>
                 
-            </td>
+                </td>
             
-        </tr>
+            </tr>
+        </table>
         
     </table>
-    
+    <table bgcolor = "white" width="100%" height ="300px">
+        <tr>
+            <td aria-placeholder=""></td>
+            <td>
+            <table align="center" width= "200px" bgcolor="white">
+                <tr>
+                    <td aria-placeholder=""></td>
+                    <td><a href="https://www.instagram.com/betziii_workneh/" align="center"><img src="./asset/image/instalogo.jpg" width="20px" height="20px" ></a></td>
+                    <td aria-placeholder=""></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.instagram.com/betziii_workneh/" align="center"><img src="./asset/image/blueinstagramlogo.jpeg" width="20px" height="20px" ></a></td>
+                <td><a href="https://telegram.org/THEgirlbehindGLASSES" ><img src="./asset/image/telegramlogo.png" width="20px" height="20px" ></a></td>
+                <td><a href="https://www.linkedin.com/in/bethelhem-teshibelay-6b4a41198" ><img src="./asset/image/linkedinlogo.png" width="20px" height="20px" ></a></td>
+                    </tr>
+
+            </table>
+            </td>
+            <td aria-placeholder=""></td>
+        </tr>
+        
+        <tr align="center">
+            <td aria-placeholder=""></td>
+            <td>&copy;2020 Bethelhem Teshibelay</td>
+            <td aria-placeholder=""></td>
+        </tr>
+    </table>
 
     
 </body>
