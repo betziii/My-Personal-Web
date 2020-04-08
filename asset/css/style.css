@@ -1,0 +1,29 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    color: black;
+}
+
+nav{
+    
+    color: black;
+    opacity:0.9;
+}
+.grey{
+    text-transform: none;
+    background-color: #2E2E2E;
+}
+.orange{
+    background-color: #f87722;
+} 
+.pd{
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
