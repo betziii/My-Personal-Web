@@ -70,3 +70,30 @@ form{
 .col-md-6>.pp{
     margin-top: 40px;
 }
+.icon>a{
+    
+    width: 35px;
+    height: 35px;
+}
+.icon{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.row>.col-md-12>p{
+    color: #2E2E2E;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    
+    text-align: center;
+}
+#hrr{
+    color: #2E2E2E;
+    width: 9em;
+}
+.align{
+    text-align: center;
+    margin-top: 1em;
+
+}
