@@ -48,3 +48,25 @@ h2{
     height: 250px;
     align-content: center;
 } 
+.form-group{
+    text-transform: uppercase;
+}
+.form-control{
+    opacity: 0.5;
+}
+.form-control-lg{
+    opacity: 0.7;
+    text-transform: uppercase;
+    
+}
+form{
+    margin: 30px;
+    padding-top: 20px;
+    color: white;
+}
+.col-md-6>p>a{
+    color: white;
+}
+.col-md-6>.pp{
+    margin-top: 40px;
+}
