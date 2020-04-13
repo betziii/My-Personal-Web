@@ -1,0 +1,50 @@
+body{
+    line-height: 2em;
+}
+h2{
+    font-family:  'Times New Roman', Times,Georgia, serif;
+    font-weight: bolder;
+    font-size: 5em;
+    padding-bottom: 0.6em;
+}
+h2:hover{
+    color: lightseagreen;
+}
+a{
+    color: black;
+    font-family:  'Times New Roman', Times,Georgia, serif;
+}
+
+
+.format{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+}
+p{
+    color: rgb(100, 97, 97);
+    font-size: 1em;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+#hrr{
+    width: 9em;
+}
+.row>.col-md-4{
+    text-align: center;
+}
+.icon>a{
+    
+    width: 35px;
+    height: 35px;
+}
+.icon{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.row>.col-md-12{
+    color: #2E2E2E;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    text-align: center;
+}
