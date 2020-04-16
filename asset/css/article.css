@@ -5,6 +5,7 @@ nav{
     
     color: black;
     opacity:0.7;
+    font-family: Arial, Helvetica, sans-serif;
 }
 a{
     color: black;
@@ -76,4 +77,13 @@ p{
     margin-bottom: 50px;
     font-size: 16px;
     text-align: center;
+}
+nav>.container>.navbar-toggler>.menu-icon>.navbar-toggler-icon{
+    border: black solid;
+    background-color: black;
+    height: 0.45em;
+
+}
+.gp{
+    padding-right: 1em;
 }

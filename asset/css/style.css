@@ -1,5 +1,6 @@
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times,Georgia,  serif;
+    
 }
 a{
     color: black;
@@ -42,6 +43,7 @@ h2{
 .col-md-4>a{
     color: white;
     font-size: 20px;
+    
 }
 .music{
     width: 350px;
@@ -95,5 +97,24 @@ form{
 .align{
     text-align: center;
     margin-top: 1em;
+
+}
+.fa-bars{
+    color: black;
+}
+nav>.container>.navbar-toggler>.menu-icon>.navbar-toggler-icon{
+    border: black solid;
+    background-color: black;
+    height: 0.45em;
+
+}
+.gp{
+    padding-right: 1.4em;
+    
+}
+.cent{
+    text-align: center;
+    margin-top: 1.5em;
+    
 
 }
