@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400;1,600&display=swap');
+
 body{
-    font-family: 'Times New Roman', Times,Georgia,  serif;
+    font-family: 'Montserrat', sans-serif;
     
 }
 a{
@@ -11,6 +13,7 @@ nav{
     color: black;
     opacity:0.9;
 }
+
 .grey{
     text-transform: none;
     background-color: #2E2E2E;
@@ -18,22 +21,49 @@ nav{
 .orange{
     background-color: #f87722;
 } 
+.white{
+    background-color: white;
+    padding: 30px;
+}
+.white>p{
+    color: rgb(46, 45, 45);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
 .pd{
     padding: 0px;
     margin: 0px;
 }
 p{
-    color: white;
-    font-size: 20px;
-    text-align: center;
+    color:rgb(94, 91, 91);
+    font-size: 17px;
+    text-align: left;
+    padding-left: 50px;
+    font-weight: 600;
     
 }
 h2{
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
-    color: white;
-    font-size: 45px;
+    color: black;
+    font-size: 30px;
     font-weight: bold;
+}
+h3{
+    padding: 0px;
+    margin: 30px 0px 30px 20px;
+
+    font-weight: 600;
+}
+.col-md-4>p{
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 10px;
+    color: rgb(107, 105, 105);
 }
 #hr{
     width: 50px;
@@ -43,12 +73,15 @@ h2{
 .col-md-4>a{
     color: white;
     font-size: 20px;
+    background-color: rgb(216, 54, 54);
+    margin-left: 30px;
     
 }
 .music{
-    width: 350px;
-    height: 250px;
+    width: 400px;
+    height: 300px;
     align-content: center;
+    
 } 
 .form-group{
     text-transform: uppercase;
@@ -117,4 +150,7 @@ nav>.container>.navbar-toggler>.menu-icon>.navbar-toggler-icon{
     margin-top: 1.5em;
     
 
+}
+.gap{
+     padding-top: 70px;
 }
