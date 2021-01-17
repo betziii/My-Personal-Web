@@ -25,6 +25,7 @@ nav{
     background-color: white;
     padding: 30px;
 }
+
 .white>p{
     color: rgb(46, 45, 45);
     font-family: 'Montserrat', sans-serif;
@@ -72,10 +73,56 @@ h3{
 }
 .col-md-4>a{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     background-color: rgb(216, 54, 54);
-    margin-left: 30px;
+    width: inherit;
     
+}
+.whiteletter{
+    color: white;
+    text-align: center;
+}
+
+.w{
+    margin-top: 100px;
+    height: 250px;
+    background-image: url(https://images.unsplash.com/photo-1520302829139-fa0d91dc51aa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjN8fGRhcmslMjBncmVlbiUyMGxlYXZlc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.half1{
+    background: rgb(29, 29, 48);
+    -webkit-clip-path: polygon(0 0, 0 500px, 500px 100px, 0 0);
+    clip-path: polygon(0 0, 0 500px, 500px 100px, 0 0);
+    
+
+}
+.half2{
+    margin-top: 150px;
+    background: rgb(29, 29, 48);
+    -webkit-clip-path: polygon(200px 0, 0 500px, 0 20px, 130px 0);
+    clip-path: polygon(200px 0, 0 500px, 0 20px, 130px 0);
+    
+
+}
+.crop{
+    margin-top: 30px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%,100% 90%, 50% 100%, 0% 90%);
+  clip-path: polygon(0% 0%, 100% 0%,100% 90%, 50% 100%, 0% 90%);
+
+}
+.dropdown1{
+    position: relative;
+    width: 300px;
+}
+.col-md-1{
+    margin-top: 150px;
+    padding: 0px;
+}
+#memail{
+    margin: 50px 50px 50px 120px;
+    width: 700px;
+    height: 45px;
 }
 .music{
     width: 400px;
@@ -85,6 +132,7 @@ h3{
 } 
 .form-group{
     text-transform: uppercase;
+    
 }
 .form-control{
     opacity: 0.5;
@@ -95,10 +143,13 @@ h3{
     
 }
 form{
-    margin: 30px;
-    padding-top: 20px;
-    color: white;
+    
+    color: rgb(4, 27, 4);
 }
+.blue{
+    background-color: rgb(29, 29, 48);
+}
+
 .col-md-6>p>a{
     color: white;
 }
@@ -147,9 +198,12 @@ nav>.container>.navbar-toggler>.menu-icon>.navbar-toggler-icon{
 }
 .cent{
     text-align: center;
-    margin-top: 1.5em;
-    
+    margin-top: 100px;
+  
 
+}
+.cent>p{
+    color: white;
 }
 .gap{
      padding-top: 70px;
