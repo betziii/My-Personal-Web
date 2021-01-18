@@ -1,13 +1,11 @@
 body{
     line-height: 2em;
 }
-nav{
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 h2{
-    font-family:  'Times New Roman', Times,Georgia, serif;
+    
     font-weight: bolder;
-    font-size: 5em;
+    font-size: 50px;
     padding-bottom: 0.6em;
 }
 h2:hover{
@@ -15,7 +13,7 @@ h2:hover{
 }
 a{
     color: black;
-    font-family:  'Times New Roman', Times,Georgia, serif;
+    
 }
 
 
@@ -27,7 +25,7 @@ a{
 p{
     color: rgb(100, 97, 97);
     font-size: 1em;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    
 }
 #hrr{
     width: 9em;
