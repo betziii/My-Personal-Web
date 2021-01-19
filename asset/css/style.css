@@ -14,16 +14,17 @@ nav{
     opacity:0.9;
 }
 
+
 .grey{
     text-transform: none;
-    background-color: #2E2E2E;
+    background-color: #2e2d2d;
 }
 .orange{
     background-color: #f87722;
 } 
 .white{
-    background-color: white;
-    padding: 30px;
+    
+    padding: 60px;
 }
 
 .white>p{
@@ -51,6 +52,11 @@ h2{
     color: black;
     font-size: 30px;
     font-weight: bold;
+}
+.h2title{
+    margin-top: 20px;
+    font-weight: bolder;
+    text-align: left;
 }
 h3{
     padding: 0px;
@@ -120,10 +126,24 @@ h3{
     padding: 0px;
 }
 #memail{
-    margin: 50px 50px 50px 120px;
+    margin: 50px 5% 50px 90px;
     border-radius: 5px 5px;
-    width: 700px;
+    width: 60%;
     height: 45px;
+}
+.searchme{
+    width: 94%;
+    height: 55px;
+    border: none;
+    background-color: rgb(218, 216, 216);
+}
+.btn-grey{
+    background-color: rgb(95, 91, 91);
+    height: 55px;
+    width: 55px;
+}
+.full{
+    width: 100%;
 }
 .music{
     width: 400px;
@@ -211,4 +231,19 @@ nav>.container>.navbar-toggler>.menu-icon>.navbar-toggler-icon{
 }
 .gap{
      padding-top: 70px;
+}
+.imgs{
+    width: 100%;
+    
+}
+.gaps{
+    padding-top: 30px;
+}
+.right{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.left{
+    margin-left: 0px;
+    padding-left: 0px;
 }
