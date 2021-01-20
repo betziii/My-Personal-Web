@@ -59,6 +59,7 @@ h2{
     margin-top: 70px;
     padding-left: 300px;
     text-align: left;
+    padding-right: 70px;
 }
 .col-md-8>h2{
     margin-top: 50px;
@@ -78,6 +79,9 @@ h3{
 h4{
     font-weight: bold;
     text-align: left;
+}
+.bord{
+    border: solid black 0.5px;
 }
 .col-md-4>p{
     font-size: 16px;
