@@ -96,6 +96,9 @@ h4{
     border-color: white;
     margin-bottom: 20px;    
 }
+.rel{
+    position: relative;
+}
 .col-md-4>a{
     color: white;
     font-size: 18px;
@@ -234,4 +237,13 @@ nav>.container>.navbar-toggler>.menu-icon>.navbar-toggler-icon{
     height: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+div>ul>li:hover{
+    background-color: black;
+}
+div>ul>li>a:hover{
+    color: white;
+}
+.marg{
+    margin-top: 70px;
 }

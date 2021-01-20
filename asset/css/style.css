@@ -247,3 +247,9 @@ nav>.container>.navbar-toggler>.menu-icon>.navbar-toggler-icon{
     margin-left: 0px;
     padding-left: 0px;
 }
+div>ul>li:hover{
+    background-color: black;
+}
+div>ul>li>a:hover{
+    color: white;
+}
